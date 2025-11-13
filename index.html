@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Adoption Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🐾 Pet Adoption Center</h1>
+</header>
+
+<main>
+  <section class="pets-container" id="petsContainer">
+    <!-- Pet cards injected by JS -->
+  </section>
+</main>
+
+<!-- Pet Details Modal -->
+<div id="petModal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close" id="closeModal">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Chatbot -->
+<div id="chatbot">
+  <div class="chat-header">Chat with us</div>
+  <div class="chat-body" id="chatBody"></div>
+  <input type="text" id="chatInput" placeholder="Ask me about pets...">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
